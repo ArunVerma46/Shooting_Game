@@ -22,7 +22,7 @@ high_score = 0
 powerups = []
 active_powerup = None
 powerup_timer = 0
-powerup_cooldown = 0  # NEW: Cooldown between activating power-ups
+powerup_cooldown = 0  
 rapid_fire_active = False
 shield_active = False
 double_damage_active = False
@@ -690,5 +690,6 @@ def end_game():
 def input(key):
     if key == 'q':
         quit()
+
 
 app.run()
